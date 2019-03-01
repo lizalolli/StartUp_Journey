@@ -1,0 +1,130 @@
+
+.qesj .qesj-logo{
+    width: 100%;
+    margin-top: 25px;
+}    
+.qesj h1{
+    font-size: 32px !important;
+    margin-top: 0;
+}
+.qesj p{
+    font-size: 16px;
+}
+
+.texto{
+    padding-left: 20px;
+}
+
+ p{
+    font-size: 12px;
+}
+
+.caja-texto h5{
+    font-weight: bold;
+}
+
+.ico{
+    background: #3e65a0;
+    width: 138px;
+    height: 138px;
+    font-size: 63px;
+    color: #fff;
+    line-height: 138px;
+    /*background: inherit;*/
+    text-align: center;
+    border-radius: 69px;
+    /*-webkit-box-shadow: 0 5px 0 0 rgba(189,189,189,.86);*/
+    box-shadow: 0 5px 0 0 rgba(189,189,189,.86);
+    margin: 0 auto 5px;
+}
+.btn{
+    background: #3e65a0;
+    border-bottom-color: rgba(24,48,84,.9);
+    font-size: 16px;
+    color: #fff;
+    line-height: 23px;
+    padding: 10px 15px;
+    border-bottom: 3px solid rgba(56,39,56,.9);
+    display: inline-block;   
+    border-radius: 0px;
+}
+
+.btn:hover{
+    text-decoration: none;
+    color:#fff;
+}
+
+
+.qesj-iconos h5{
+    text-align: center;
+}
+.qesj-iconos p{
+    text-align: center;
+    margin: 0 auto 35px auto;
+    font-size: 12px;
+}
+
+.foto1{
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+}
+
+.texto-foto {
+  position: absolute;
+  bottom: 110px;
+  left: 40px;
+  color:#fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+.texto-foto2 {
+  position: absolute;
+  bottom: 87px;
+  left: 40px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: lighter;
+  text-shadow: 1px 1px 5px #000000;
+}
+
+.ico-foto{
+    background: rgba(43, 43, 43, 0.58);
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    /*background: inherit;*/
+    text-align: center;
+    border-radius: 69px;
+    /*-webkit-box-shadow: 0 5px 0 0 rgba(189,189,189,.86);*/
+    margin: 0 auto 5px;
+    /*posición*/
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-size: 16px;
+}
+
+.ico-foto i{
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .container h1{
+    max-width: 400px;
+  }
+  .texto, .container3{
+    max-width: 400px;
+  }
+  .qesj-iconos p{
+    max-width: 50%;
+  }
+  .foto1{
+    max-width:400px;
+    margin-bottom: 25px;
+  }
+}
+
+

@@ -1,0 +1,206 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+  <!--estilos-->
+    <style type="text/css">
+
+    .container{
+      width: 100%;
+      max-width: 400px;
+      color:grey;
+      font-size: 10px;
+    }
+ 
+    label{
+      color:grey;
+      font-size: 10px;
+    }
+
+    h5, h3{
+      color:#3e65a0;
+    }
+
+    h5{
+      font-weight: 200;
+      font-size: 16px;
+    }
+
+    h3{
+      font-size: 20px;
+    }
+
+    .help-block{
+      font-size: 11px;
+      color:grey;
+    }
+
+    .help-block2{
+      color:#7ee500; 
+      margin-bottom:15px; 
+      margin-top:-15px;
+      font-size: 11px;
+    }
+
+    .control-label{
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+
+    .registro{
+      margin-bottom:20px;
+    }
+
+    .form-control{
+      margin-bottom: 20px;
+      padding-top: 23px;
+      padding-bottom: 23px;
+
+      /*color:#e5e5e5; */ 
+    } 
+
+    .btn {
+      background: #3e65a0;
+      font-size: 16px;
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 4px;
+      border-bottom: none;
+      font-size: 12px;
+      display: block;
+      width: 100%;
+      border: 2px solid #3e65a0;
+      font-weight: 400;
+    }
+
+    .btn-back{
+      background:white; 
+      color: #3e65a0;
+      font-weight: bold;    
+    }
+
+    .btn-back:hover{
+      color: #3e65a0;    
+    }
+    
+    </style>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <form>
+        <div class="col-xs-12 registro">
+          <h3 style="margin-bottom:20px;">Registro nueva cuenta</h3>
+          <h5>Datos de la cuenta</h5>
+        </div>
+
+        <div class="form-group">
+          <label for="email" class="col-xs-12 control-label">DIRECCIÓN DE CORREO ELECTRÓNICO*</label>
+          <div class="col-xs-12">
+            <input type="email" id="email" placeholder="Ingresa tu correo electrónico" class="form-control">
+          </div>
+          <span class="help-block2 col-xs-12" style="color:red;">Campo de correo electrónico inválido</span>
+        </div>
+
+        <div class="form-group">
+          <label for="password" class="col-xs-12 control-label">CONTRASEÑA*</label>
+          <div class="col-xs-12">
+            <input type="password" id="password" placeholder="Ingresa tu contraseña" class="form-control">
+          </div>
+          <span class="help-block2 col-xs-12">Contraseña coincide.</span>
+        </div>
+
+        <div class="form-group">
+          <label for="password" class="col-xs-12 control-label">CONFIRMAR CONTRASEÑA*</label>
+          <div class="col-xs-12">
+            <input type="password" id="password" placeholder="Ingresa tu contraseña" class="form-control">
+          </div>
+          <span class="help-block2 col-xs-12">Contraseña coincide.</span>
+          <span class="help-block col-xs-12" style="margin-bottom:30px;">La contraseña debe tener al menos 8 carácteres y una mayúscula.</span>
+        </div>
+          
+        <br>
+        <div class="col-xs-12 registro">
+          <h5>Datos Personales</h5>
+        </div>
+
+        <div class="form-group">
+          <label for="firstName" class="col-xs-4 control-label">NOMBRE*</label>
+          <div class="col-xs-12">
+            <input type="text" id="firstName" placeholder="Ingresa tu nombre" class="form-control" autofocus>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="firstName" class="col-xs-4 control-label">APELLIDO*</label>
+          <div class="col-xs-12">
+            <input type="text" id="firstName" placeholder="Ingresa tus apellidos" class="form-control" autofocus>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="firstName" class="col-xs-4 control-label">CIUDAD</label>
+          <div class="col-xs-12">
+            <input type="text" id="firstName" placeholder="Ingresa tu ciudad" class="form-control" autofocus>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="country" class="col-xs-12 control-label">PAÍS</label>
+          <div class="col-xs-12">
+            <select id="country" class="form-control" style="color:grey; padding-top:200px; padding-bottom:23px;">
+              <option>Chile</option>
+              <option>Bahamas</option>
+              <option>Cambodia</option>
+              <option>Denmark</option>
+              <option>Ecuador</option>
+              <option>Fiji</option>
+              <option>Gabon</option>
+              <option>Haiti</option>
+            </select>
+          </div>
+
+        </div> 
+
+        <div class="col-xs-12">
+          <span class="help-block" style="margin-bottom:30px; margin-top:10px;">*Campos obligatorios.</span>
+        </div>
+  
+          <div class="form-group">
+            <div class="col-xs-6 col-sm-6">
+              <button type="submit" class="btn btn-back" style="margin-bottom:60px;">VOLVER</button>
+            </div>
+          </div>
+
+          <!--<div class="col-sm-2"></div> -->
+
+          <div class="form-group" role="form">
+            <div class="col-xs-6 col-sm-6">
+              <button type="submit" class="btn" style="margin-bottom:60px;">CREAR CUENTA</button>
+            </div>
+          </div>
+                
+      </form> <!--formulario-->
+
+    </div><!--container-->
+
+
+    <!--scripts-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
